@@ -1288,7 +1288,7 @@ class VitePackGUI(TkinterDnD.Tk if _DND else tk.Tk):
             lbl.bind("<Button-1>", lambda e, u=url: webbrowser.open(u))
             lbl.bind("<Enter>", lambda e, w=lbl: w.config(fg=WHITE, font=(self.fn_sm[0], self.fn_sm[1], "underline")))
             lbl.bind("<Leave>", lambda e, w=lbl, c=color: w.config(fg=c, font=self.fn_sm))
-        tk.Label(win, text=f"MIT License  |  2025 {AUTHOR}  |  Open Source",
+        tk.Label(win, text=f"MIT License  |  2026 {AUTHOR}  |  Open Source",
                  bg=BG2, fg=GRAY2, font=self.fn_xs).pack(fill="x", side="bottom", pady=8)
 
     def _show_shortcuts(self):
